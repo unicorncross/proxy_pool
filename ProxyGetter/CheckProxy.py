@@ -12,11 +12,9 @@
 """
 __author__ = 'JHao'
 
-import sys
 from getFreeProxy import GetFreeProxy
 from Util.utilFunction import verifyProxyFormat
 
-sys.path.append('../')
 
 from Util.LogHandler import LogHandler
 
@@ -69,4 +67,4 @@ class CheckProxy(object):
 
 if __name__ == '__main__':
     CheckProxy.checkAllGetProxyFunc()
-    CheckProxy.checkGetProxyFunc(GetFreeProxy.freeProxyFirst)
+    CheckProxy.checkGetProxyFunc(GetFreeProxy.freeProxy01)
